@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #F7F4F1;
+    color: #4E4B47;
+    background-image: url('Dibujo\ De\ Ovejas.jpg');
+
+}
+
+h1 {
+    text-align: center;
+    color: #8A7F7B;
+}
+
+#resumenCarrito {
+    background-color: #F9F1F0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    background-color: #F4E1D2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6A4E4D;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #D1B5A3;
+    border-radius: 5px;
+    background-color: #FFF3EC;
+}
+
+button {
+    background-color: #F4D1D1;
+    color: #6A4E4D;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #E8B7B2;
+    color: #4E4B47;
+}

@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #F7F4F1; /* Color suave de fondo, tono pastel claro */
+    color: #4E4B47; /* Color de texto oscuro, fácil de leer */
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #8A7F7B; /* Tono suave y cálido para el título */
+}
+
+/* Estilo para el resumen del carrito */
+#resumenCarrito {
+    background-color: #F9F1F0; /* Color pastel rosado muy claro */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los productos en el carrito */
+#listaProductos {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaProductos li {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Estilo para el total */
+#resumenCarrito p {
+    font-size: 18px;
+    color: #8A7F7B; /* Tono suave café claro para el total */
+    margin-top: 10px;
+}
+
+/* Estilo para el botón de "Confirmar Pedido" */
+.btn-buy {
+    background-color: #F4D1D1; /* Color pastel rosado muy suave */
+    color: #6A4E4D; /* Color café suave para el texto */
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover en el botón */
+.btn-buy:hover {
+    background-color: #E8B7B2; /* Rosita pastel más intenso */
+    color: #4E4B47; /* Color de texto más oscuro cuando se pasa el cursor */
+}
+
+/* Estilo para el formulario */
+form {
+    background-color: #F4E1D2; /* Color pastel de café claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #6A4E4D; /* Color café suave para los labels */
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #D1B5A3; /* Color de borde suave en tono café claro */
+    border-radius: 5px;
+    background-color: #FFF3EC; /* Color de fondo suave en rosa pastel */
+}
+
+input[type="submit"], button[type="submit"] {
+    background-color: #F4D1D1; /* Color pastel rosado suave */
+    color: #6A4E4D;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button[type="submit"]:hover {
+    background-color: #E8B7B2;
+    color: #4E4B47;
+}
