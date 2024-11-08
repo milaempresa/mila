@@ -17,9 +17,7 @@ html {
 	box-sizing: border-box;
 }
 
-/* ********************************** */
-/*             UTILIDADES             */
-/* ********************************** */
+
 .container {
 	max-width: 120rem;
 	margin: 0 auto;
@@ -348,7 +346,7 @@ header{
 	background-repeat: no-repeat;
 }
 .card-category p {
-	font-size: 3.5rem;
+	font-size: 5.5rem;
 	color: #fff;
 	text-transform: capitalize;
 	position: relative;
